@@ -1,0 +1,43 @@
+.newsletter{
+   
+    display : $flex;
+    flex-wrap : $wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+
+    h1{
+        width : $max;
+        font-size : $size-h1;
+        font-family : $font;
+        font-weight : $regular;
+        color : $color-h1;
+        text-align: center;
+        margin-bottom : 50px;
+
+        span{
+            font-weight : bold;
+        }
+    }
+    h3{
+        width : $max;
+        color : $color-h3;
+        font-size : $size-h3;
+        font-weight : $light;
+        font-family : $font;
+        width : $max;
+        text-align: center;
+        margin-top : 80px;
+
+    }
+
+    input{
+        height : 40px;
+        width : 300px;
+        border : none;
+        background: #F6F7FB;
+    }
+
+    button{
+        margin-top : 0;
+    }
+}

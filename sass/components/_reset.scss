@@ -1,0 +1,57 @@
+@import "../helpers/variables.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: $flex;
+    justify-content: center;
+    flex-wrap: $wrap;
+    position: relative;
+
+
+    .reseaux{
+        display : $flex;
+        flex-wrap: $wrap;
+        width : 10px;
+        height: 200px;
+        left : 5%;
+        top : 350px;
+        position: absolute;
+    
+        img{
+            height : 10px;
+        }
+    }
+
+    .imgWave{
+        right : 0;
+        position: absolute;
+        z-index: -3;
+    }
+}
+
+main{
+    display : $flex;
+    flex-wrap: $wrap;
+    width : $max;
+    justify-content: center;
+
+    #container{
+        width : 80%;
+        display: $flex;
+        flex-wrap : $wrap;
+        justify-content: center;
+    }
+}
+.imgContainer{
+
+    img{
+        max-width: $max;
+        height : auto;
+    } 
+}
+
+

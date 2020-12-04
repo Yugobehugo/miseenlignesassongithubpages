@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative; }
+  body .reseaux {
+    display: flex;
+    flex-wrap: wrap;
+    width: 10px;
+    height: 200px;
+    left: 5%;
+    top: 350px;
+    position: absolute; }
+    body .reseaux img {
+      height: 10px; }
+  body .imgWave {
+    right: 0;
+    position: absolute;
+    z-index: -3; }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center; }
+  main #container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+.imgContainer img {
+  max-width: 100%;
+  height: auto; }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center; }
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  nav h1 {
+    width: 25%;
+    font-family: "poppins", "sans-serif";
+    display: flex;
+    align-items: flex-end;
+    color: #484848;
+    font-size: 30px; }
+
+ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-between; }
+  ul li {
+    width: 20%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    ul li a {
+      text-decoration: none;
+      color: white;
+      font-family: "poppins", "sans-serif";
+      text-align: center; }
+
+article {
+  width: 50%; }
+  article h1 {
+    width: 100%;
+    font-size: 50px;
+    font-family: "poppins", "sans-serif";
+    font-weight: 400;
+    color: #42495B;
+    margin-top: 100px; }
+    article h1 span {
+      font-size: 70px;
+      font-weight: 600; }
+  article p {
+    width: 75%;
+    font-family: "poppins", "sans-serif";
+    font-size: 16px;
+    font-weight: 300;
+    color: #7A839E; }
+
+.imgContainer {
+  width: 49%; }
+
+button {
+  background: linear-gradient(to right, #1A129F, #4E44E0);
+  border-radius: 25px;
+  padding: 10px 40px;
+  border: #4E44E0;
+  color: white;
+  font-family: "poppins", "sans-serif";
+  margin-left: 15px;
+  margin-top: 25px; }
+
+.biography {
+  display: flex;
+  padding-top: 100px;
+  background: url(../../newImg/background-we-are.png);
+  flex-wrap: wrap; }
+  .biography .imgContainer {
+    width: 65%; }
+  .biography article {
+    width: 35%;
+    margin-top: 70px; }
+  .biography h1 {
+    margin-top: 0;
+    font-weight: 600; }
+  .biography h3 {
+    color: #7E76F9;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "poppins", "sans-serif"; }
+  .biography p {
+    width: 100%; }
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../../newImg/background-we-are.png);
+  justify-content: space-between;
+  padding-bottom: 150px; }
+  .services h1 {
+    width: 100%;
+    font-size: 50px;
+    font-family: "poppins", "sans-serif";
+    font-weight: 600;
+    color: #42495B;
+    margin-bottom: 50px; }
+  .services h3 {
+    width: 100%;
+    color: #7E76F9;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "poppins", "sans-serif"; }
+
+.articleServicesEtPricing {
+  width: 28%;
+  margin-bottom: 50px;
+  border-radius: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: white;
+  box-shadow: 1px 1px 3px 3px rgba(32, 31, 31, 0.123); }
+  .articleServicesEtPricing img {
+    margin-top: 15px; }
+  .articleServicesEtPricing h3 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #42495B;
+    font-weight: bold; }
+  .articleServicesEtPricing p {
+    color: #42495B;
+    font-weight: 400;
+    font-size: 16px; }
+  .articleServicesEtPricing .buttonServices {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%; }
+  .articleServicesEtPricing button {
+    place-self: end end;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 25px;
+    padding: 10px; }
+
+.pricing {
+  display: flex;
+  background: #8985db42;
+  justify-content: space-between;
+  width: 100vw;
+  flex-wrap: wrap;
+  padding: 0 10% 0; }
+  .pricing h1 {
+    width: 100%;
+    font-size: 50px;
+    font-family: "poppins", "sans-serif";
+    font-weight: 600;
+    color: #42495B;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px; }
+  .pricing h3 {
+    width: 100%;
+    color: #7E76F9;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "poppins", "sans-serif";
+    width: 100%;
+    text-align: center;
+    margin-top: 80px; }
+  .pricing .articleServicesEtPricing h2 {
+    color: #1000FF;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "poppins", "sans-serif"; }
+  .pricing .articleServicesEtPricing h3 {
+    color: #42495B;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  .pricing .articleServicesEtPricing button {
+    margin-left: 0;
+    margin-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 10px 40px; }
+  .pricing .articleServicesEtPricing p {
+    color: #7A839E;
+    padding: 0 20px 0;
+    text-align: center; }
+
+.newsletter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px; }
+  .newsletter h1 {
+    width: 100%;
+    font-size: 50px;
+    font-family: "poppins", "sans-serif";
+    font-weight: 400;
+    color: #42495B;
+    text-align: center;
+    margin-bottom: 50px; }
+    .newsletter h1 span {
+      font-weight: bold; }
+  .newsletter h3 {
+    width: 100%;
+    color: #7E76F9;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "poppins", "sans-serif";
+    width: 100%;
+    text-align: center;
+    margin-top: 80px; }
+  .newsletter input {
+    height: 40px;
+    width: 300px;
+    border: none;
+    background: #F6F7FB; }
+  .newsletter button {
+    margin-top: 0; }
+
+footer {
+  width: 100%;
+  padding-bottom: 80px;
+  padding-top: 300px;
+  justify-content: center;
+  display: flex; }
+  footer .containerFooter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between; }
+  footer .backgroundImg {
+    position: absolute;
+    bottom: 0;
+    z-index: -3;
+    width: 100%;
+    height: 600px; }
+
+.blocFooter {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap; }
+  .blocFooter h1 {
+    width: 100%;
+    font-size: 50px;
+    font-family: "poppins", "sans-serif";
+    font-weight: 400;
+    color: white;
+    text-align: center; }
+  .blocFooter h2 {
+    width: 100%;
+    font-size: 31px;
+    font-family: "poppins", "sans-serif";
+    font-weight: 400;
+    color: white; }
+  .blocFooter div {
+    display: flex; }
+  .blocFooter h4 {
+    width: 100%;
+    font-size: 24px;
+    font-family: "poppins", "sans-serif";
+    font-weight: 400;
+    color: white;
+    margin-bottom: 25px; }
+  .blocFooter h5 {
+    width: 100%;
+    font-size: 20px;
+    font-family: "poppins", "sans-serif";
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px; }
+  .blocFooter a {
+    width: 100%;
+    font-size: 20px;
+    font-family: "poppins", "sans-serif";
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px; }
+
+@media screen and (max-width: 1000px) {
+  button {
+    margin-left: 0; }
+  main {
+    width: 100%; }
+  header ul {
+    width: 60%; }
+  .headerArticle {
+    width: 100%; }
+  .imgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  .biography {
+    flex-direction: column-reverse; }
+  .biography article {
+    width: 100%; }
+  .biography .imgContainer {
+    width: 100%; }
+  .articleServicesEtPricing {
+    width: 45%; }
+  .imgWave {
+    width: 70%; }
+  footer {
+    flex-wrap: wrap;
+    background: #19129D;
+    padding-top: 100px; }
+    footer .blocFooter {
+      width: 40%;
+      margin-bottom: 40px; }
+    footer .backgroundImg {
+      display: none; } }
+
+@media screen and (max-width: 600px) {
+  .imgWave {
+    width: 50%; }
+  header nav h1 {
+    width: 100%;
+    margin-bottom: 25px; }
+  header nav ul {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    header nav ul li {
+      width: 100%;
+      margin-bottom: 7px; }
+    header nav ul a {
+      color: black; }
+  header p {
+    width: 100%; }
+  header article h1 span {
+    font-size: 55px; }
+  .imgContainer {
+    margin-top: 30px; }
+  .biography {
+    padding-top: 40px; }
+  .services {
+    justify-content: center;
+    padding-top: 70px;
+    padding-top: 40px; }
+    .services p {
+      width: 100%;
+      text-align: center; }
+  .pricing {
+    justify-content: center; }
+  .articleServicesEtPricing {
+    width: 80%; }
+  .newsletter input {
+    margin-bottom: 20px; }
+  footer {
+    padding-top: 50px; }
+    footer .containerFooter {
+      justify-content: center; }
+    footer .blocFooter {
+      width: 80%;
+      margin-bottom: 40px; }
+      footer .blocFooter h2, footer .blocFooter h4, footer .blocFooter a, footer .blocFooter h5 {
+        color: white;
+        text-align: center; } }

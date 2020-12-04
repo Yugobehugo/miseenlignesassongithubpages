@@ -1,0 +1,150 @@
+@media #{$tablette}{
+   
+    button{
+        margin-left : 0;
+    }
+
+    main{
+        width : $max;
+    }
+   
+    header ul{
+       width : 60%;
+   }
+
+   .headerArticle{
+       width : $max;
+   }
+   .imgContainer{
+       width : $max;
+       display : $flex;
+       justify-content : center;
+   }
+
+   .biography{
+       flex-direction: column-reverse;
+   }
+   .biography article{
+       width : $max;
+   }
+   .biography .imgContainer{
+       width : $max;
+   }
+
+   .articleServicesEtPricing{
+       width : 45%;
+   }
+
+   .imgWave{
+    width : 70%;
+}
+
+footer{
+    flex-wrap : $wrap;
+    background :#19129D;
+    padding-top : 100px;
+
+     .blocFooter{
+         width : 40%;
+         margin-bottom : 40px;
+     }
+
+     .backgroundImg{
+        display : none;
+    }
+}
+
+
+}
+
+@media #{$mobile}{
+
+
+    .imgWave{
+        width : 50%;
+    }
+    
+    header{
+        nav h1 {
+         width : $max;
+         margin-bottom : 25px;
+        }
+
+        nav ul{
+            width : $max;
+            justify-content: space-between;
+            flex-wrap : $wrap;
+
+            li{
+                width : $max;
+                margin-bottom : 7px;
+            }
+
+            a{
+                color : black;
+            }
+        }
+
+        p{
+            width : $max;
+        }
+
+        article h1 span{
+            font-size : 55px;
+        }
+    }
+    .imgContainer{
+
+        margin-top : 30px;
+    }
+    .biography{
+        padding-top : 40px;
+        
+    }
+    .services{
+        justify-content: center;
+        padding-top : 70px;
+        padding-top : 40px;
+
+        p{
+            width : $max;
+            text-align: center;
+        }
+
+    }
+
+    .pricing{
+        justify-content: center;
+    }
+
+    .articleServicesEtPricing{
+        width : 80%;
+    }
+
+    .newsletter{
+        input{
+            margin-bottom : 20px;
+        }
+    }
+
+
+    footer{
+        padding-top: 50px;
+
+        .containerFooter{
+            justify-content: center;;
+        }
+        .blocFooter{
+            width : 80%;
+            margin-bottom : 40px;
+
+            h2,h4,a,h5{
+                color : white;
+                text-align: center ;
+            }
+            
+        }
+        
+    }
+    
+}

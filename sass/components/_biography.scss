@@ -1,0 +1,28 @@
+.biography{
+    display : $flex;
+    padding-top : 100px;
+    background: url(../../newImg/background-we-are.png);
+    flex-wrap : $wrap;
+
+    .imgContainer{
+        width : 65%;
+    }
+    article{
+        width : 35%;
+        margin-top : 70px;
+    }
+    h1{
+        margin-top : 0;
+        font-weight : $bold;
+    }
+    h3{
+        color : $color-h3;
+        font-size : $size-h3;
+        font-weight : $regular;
+        font-family : $font;
+        
+    }
+    p{
+        width: $max;
+    }
+}

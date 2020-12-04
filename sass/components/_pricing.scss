@@ -1,0 +1,61 @@
+.pricing{
+    display : $flex;
+    background: #8985db42;
+    justify-content: space-between;
+    width : 100vw;
+    flex-wrap: wrap;
+    padding : 0 10% 0;
+    h1{
+        width : $max;
+        font-size : $size-h1;
+        font-family : $font;
+        font-weight : $bold;
+        color : $color-h1;
+        width : $max;
+        text-align: center;
+        margin-bottom : 80px;
+    }
+    h3{
+        width : $max;
+        color : $color-h3;
+        font-size : $size-h3;
+        font-weight : $light;
+        font-family : $font;
+        width : $max;
+        text-align: center;
+        margin-top : 80px;
+    }
+
+    .articleServicesEtPricing{
+
+        h2{
+            color: $color-price;
+            width : $max;
+            text-align: center;
+            font-weight : $bold;
+            margin-top : 30px;
+            margin-bottom : 30px;
+            font-family : $font;
+        }
+        h3{
+            color : $color-h1;
+            font-weight : $bold;
+            margin-top : 50px;
+            margin-bottom : 50px;
+        }
+        button{
+            margin-left : 0;
+            margin-bottom : 40px;
+            margin-top : 0;
+            margin-bottom : 30px;
+            padding : 10px 40px;
+
+        }
+        p{
+            color : $color-p;
+            padding : 0 20px 0;
+            text-align: center;
+        }
+    }
+}
+

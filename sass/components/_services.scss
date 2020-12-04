@@ -1,0 +1,70 @@
+.services{
+    display : $flex;
+    flex-wrap : $wrap;
+    background: url(../../newImg/background-we-are.png);
+    justify-content: space-between;
+    padding-bottom: 150px;
+
+    h1{
+        width : $max;
+        font-size : $size-h1;
+        font-family : $font;
+        font-weight : $bold;
+        color : $color-h1;
+        margin-bottom : 50px;
+    }
+    h3{
+        width : $max;
+        color : $color-h3;
+        font-size : $size-h3;
+        font-weight : $regular;
+        font-family : $font;
+    }
+    
+}
+.articleServicesEtPricing{
+    width : 28%;
+    margin-bottom : 50px;
+    border-radius: 36px;
+    display: $flex;
+    flex-wrap: $wrap;
+    justify-content: center;
+    background: $white;
+    box-shadow: 1px 1px 3px 3px rgba(32, 31, 31, 0.123);
+
+    img{
+        margin-top : 15px;
+    }
+
+
+
+    h3{
+        text-align: center;
+        margin-top : 25px;
+        margin-bottom : 25px;
+        color : $color-h1;
+        font-weight : bold;
+    }
+    p{
+        color : $color-h1;
+        font-weight : $regular;
+        font-size : $size-p;
+        
+    }
+
+    .buttonServices{
+        width : 100%;
+        display : $flex;
+        justify-content: flex-end;
+        padding-right : 10%;
+    }
+    button{
+        place-self : end end;
+        display: $flex;
+        margin-top : 20px;
+        margin-left : 0;
+        margin-bottom : 25px;
+        padding : 10px;
+
+    }
+} 
